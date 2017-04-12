@@ -1,3 +1,9 @@
 run13.tar.gz filter=lfs diff=lfs merge=lfs -text
 model.h5.gz filter=lfs diff=lfs merge=lfs -text
 run13.mp4 filter=lfs diff=lfs merge=lfs -text
+data/training_data_track1_recovery.tar.xz filter=lfs diff=lfs merge=lfs -text
+data/training_data_track1_recovery2.tar.xz filter=lfs diff=lfs merge=lfs -text
+data/training_data_track1_recovery3.tar.xz filter=lfs diff=lfs merge=lfs -text
+data/training_data_track1_recovery4.tar.xz filter=lfs diff=lfs merge=lfs -text
+data/training_data_track1_recovery5.tar.xz filter=lfs diff=lfs merge=lfs -text
+data/data_turtle.tar.xz filter=lfs diff=lfs merge=lfs -text
