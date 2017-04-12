@@ -31,11 +31,10 @@ The goals / steps of this project are the following:
 #### 1. Submission includes all required files and can be used to run the simulator in autonomous mode
 
 My project includes the following files:
-* model.py containing the script to create and train the model
-* drive.py for driving the car in autonomous mode
-* model.h5 containing a trained convolution neural network 
-* writeup.md summarizing the results
-* run11.mp4 a video of the successfull drive in autonomous mode on track 1
+* bin/model.py containing the script to create and train the model
+* bin/drive.py for driving the car in autonomous mode
+* model.h5.gz containing a trained convolution neural network 
+* run13.mp4 a video of the successfull drive in autonomous mode on track 1
 
 #### 2. Submission includes functional code
 Using the Udacity provided simulator and my drive.py file, the car can be driven autonomously around the track by executing 
@@ -59,11 +58,11 @@ To combat the overfitting, I introduced a dropout layer after every fully connec
 
 The final step was to run the simulator to see how well the car was driving around track one. There were two spots where the vehicle fell off the track.
 
-At this position the model confuses the water on the right with the road on the left and chode to drive off road into the water.
+At this position the model confuses the water on the right with the road on the left and chose to drive off road down into the water.
 
 ![alt text][image1]
 
-At this position the model also confuses the 'sand'-area with the paved road. The car left the road directly into the sandy parking lot.
+At this position the model also confuses the 'sand'-area with the paved road. The car left the road and followed the sand into the lot.
 
 ![alt text][image2]
 
